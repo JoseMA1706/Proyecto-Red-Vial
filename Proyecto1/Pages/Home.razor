@@ -1,0 +1,134 @@
+﻿@page "/"
+@using Proyecto1.Models
+@using Proyecto1.Data
+@using Proyecto1.Services
+@inject RedVialContext Db
+@inject ReporteService Reportes
+@inject PdfGeneratorService Pdf
+@inject NavigationManager Nav
+
+<PageTitle>Red Vial</PageTitle>
+
+<div class="container mt-4 p-4 shadow rounded bg-white">
+    <h3 class="text-center text-primary mb-4">Estado Actual de la Red Vial</h3>
+
+    @if (listaNodos.EstaVacia())
+    {
+        <p class="text-muted">No hay intersecciones agregadas todavía.</p>
+    }
+    else
+    {
+        <table class="table table-bordered table-hover mt-3">
+            <thead class="table-dark text-center">
+                <tr>
+                    <th>ID</th>
+                    <th>Vehículos</th>
+                    <th>Semáforo</th>
+                    <th>Tiempo (s)</th>
+                    <th>Norte</th>
+                    <th>Sur</th>
+                    <th>Este</th>
+                    <th>Oeste</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var nodo in listaNodos.ObtenerTodos())
+                {
+                    <tr class="text-center">
+                        <td>@nodo.Id</td>
+                        <td>@nodo.VehiculosEnEspera</td>
+                        <td>@nodo.EstadoSemaforo</td>
+                        <td>@nodo.TiempoPromedioCruce</td>
+                        <td>@(nodo.Norte?.Id ?? "-")</td>
+                        <td>@(nodo.Sur?.Id ?? "-")</td>
+                        <td>@(nodo.Este?.Id ?? "-")</td>
+                        <td>@(nodo.Oeste?.Id ?? "-")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        @if (nodoMasCongestionado != null)
+        {
+            <div class="alert alert-warning mt-4">
+                <strong>🚨 Intersección más congestionada:</strong>
+                @nodoMasCongestionado.Id con @nodoMasCongestionado.VehiculosEnEspera vehículos en espera.
+            </div>
+        }
+
+        @if (!cuellosBotella.EstaVacia())
+        {
+            <div class="alert alert-danger mt-4">
+                <h5>⚠️ Cuellos de Botella Detectados:</h5>
+                <ul>
+                    @foreach (var nodo in cuellosBotella.ObtenerTodos())
+                    {
+                        <li>
+                            <strong>@nodo.Id:</strong> @nodo.VehiculosEnEspera vehículos – Semáforo: @nodo.EstadoSemaforo – Tiempo: @nodo.TiempoPromedioCruce s
+                        </li>
+                    }
+                </ul>
+            </div>
+        }
+
+        <div class="mt-4 d-flex flex-wrap gap-2">
+            <button class="btn btn-danger" @onclick="EliminarTodo">🗑️ Eliminar Todo</button>
+            <button class="btn btn-success" @onclick="GuardarReporte">💾 Guardar Reporte</button>
+            <button class="btn btn-primary" @onclick="DescargarPdf">📄 Descargar PDF</button>
+            <button class="btn btn-secondary" @onclick="IrAHistorial">📁 Ver Historial de Reportes</button>
+        </div>
+    }
+</div>
+
+@code {
+    private ListaNodos listaNodos = new();
+    private Nodo? nodoMasCongestionado;
+    private ListaNodos cuellosBotella = new();
+
+    protected override void OnInitialized()
+    {
+        var nodos = Db.Nodos.ToList();
+        var mapa = nodos.ToDictionary(n => n.Id);
+
+        foreach (var nodo in nodos)
+        {
+            if (!string.IsNullOrEmpty(nodo.IdNorte) && mapa.ContainsKey(nodo.IdNorte)) nodo.Norte = mapa[nodo.IdNorte];
+            if (!string.IsNullOrEmpty(nodo.IdSur) && mapa.ContainsKey(nodo.IdSur)) nodo.Sur = mapa[nodo.IdSur];
+            if (!string.IsNullOrEmpty(nodo.IdEste) && mapa.ContainsKey(nodo.IdEste)) nodo.Este = mapa[nodo.IdEste];
+            if (!string.IsNullOrEmpty(nodo.IdOeste) && mapa.ContainsKey(nodo.IdOeste)) nodo.Oeste = mapa[nodo.IdOeste];
+
+            listaNodos.Agregar(nodo);
+
+            if (nodo.VehiculosEnEspera >= 10 && nodo.EstadoSemaforo == "Rojo" && nodo.TiempoPromedioCruce >= 30)
+                cuellosBotella.Agregar(nodo);
+        }
+
+        nodoMasCongestionado = nodos.OrderByDescending(n => n.VehiculosEnEspera).FirstOrDefault();
+    }
+
+    private void EliminarTodo()
+    {
+        Db.Nodos.RemoveRange(Db.Nodos);
+        Db.SaveChanges();
+        Nav.NavigateTo(Nav.Uri, forceLoad: true);
+    }
+
+    private void GuardarReporte()
+    {
+        string nodos = string.Join("; ", listaNodos.ObtenerTodos().Select(n => $"{n.Id} [{n.EstadoSemaforo}] ({n.VehiculosEnEspera})"));
+        string interseccion = nodoMasCongestionado?.Id ?? "Ninguna";
+        string cuellos = string.Join("; ", cuellosBotella.ObtenerTodos().Select(n => n.Id));
+        Reportes.GuardarReporte(nodos, interseccion, cuellos);
+    }
+
+    private void DescargarPdf()
+    {
+        Nav.NavigateTo("/descargar-reporte", forceLoad: true);
+    }
+
+    private void IrAHistorial()
+    {
+        Nav.NavigateTo("/historial-reportes");
+    }
+}
+

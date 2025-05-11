@@ -1,0 +1,73 @@
+﻿@page "/historial-reportes"
+@using Proyecto1.Models
+@using Proyecto1.Data
+@inject RedVialContext Db
+@inject NavigationManager Nav
+
+<PageTitle>Historial de Reportes</PageTitle>
+
+<div class="container mt-4 p-4 shadow rounded bg-white">
+    <h3 class="text-center text-primary mb-4">📄 Historial de Reportes Guardados</h3>
+
+    @if (historial.EstaVacia())
+    {
+        <div class="alert alert-info text-center">No hay reportes guardados aún.</div>
+    }
+    else
+    {
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark text-center">
+                <tr>
+                    <th>ID</th>
+                    <th>Fecha</th>
+                    <th>Intersección Más Congestionada</th>
+                    <th>Cuellos de Botella</th>
+                    <th>Nodos</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var r in historial.ObtenerTodos())
+                {
+                    <tr class="text-center">
+                        <td>@r.Id</td>
+                        <td>@r.FechaGeneracion.ToString("dd/MM/yyyy HH:mm")</td>
+                        <td>@r.InterseccionMasCongestionada</td>
+                        <td>@r.CuellosBotellaTexto</td>
+                        <td>@r.NodosTexto</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="d-flex gap-2 mt-4">
+            <button class="btn btn-danger" @onclick="EliminarHistorial">🗑️ Eliminar Historial</button>
+            <button class="btn btn-success" @onclick="DescargarPdf">📥 Descargar PDF</button>
+        </div>
+    }
+</div>
+
+@code {
+    private ListaReportes historial = new();
+
+    protected override void OnInitialized()
+    {
+        foreach (var reporte in Db.Reportes.OrderBy(r => r.FechaGeneracion))
+        {
+            historial.Agregar(reporte);
+        }
+    }
+
+    private void EliminarHistorial()
+    {
+        Db.Reportes.RemoveRange(Db.Reportes);
+        Db.SaveChanges();
+        Nav.NavigateTo(Nav.Uri, forceLoad: true);
+    }
+
+    private void DescargarPdf()
+    {
+        Nav.NavigateTo("/descargar-historial", forceLoad: true);
+    }
+}
+
+

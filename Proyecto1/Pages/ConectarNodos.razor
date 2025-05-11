@@ -1,0 +1,157 @@
+﻿@page "/conectar-nodos"
+@using Proyecto1.Models
+@using Proyecto1.Data
+@inject RedVialContext Db
+
+<PageTitle>Conectar Intersecciones</PageTitle>
+
+<div class="container mt-4 p-4 shadow rounded bg-light">
+    <h3 class="text-center text-primary mb-4">Conectar Intersecciones</h3>
+
+    <EditForm Model="@nodoDestino" OnValidSubmit="Conectar">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label class="form-label">ID de Intersección Origen</label>
+            <InputText class="form-control" @bind-Value="idOrigen" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Dirección a Conectar</label>
+            <InputSelect class="form-select" @bind-Value="direccion">
+                <option value="">Seleccione una dirección</option>
+                <option value="norte">Norte</option>
+                <option value="sur">Sur</option>
+                <option value="este">Este</option>
+                <option value="oeste">Oeste</option>
+            </InputSelect>
+        </div>
+
+        <div class="form-check mb-3">
+            <InputCheckbox class="form-check-input" @bind-Value="esBidireccional" />
+            <label class="form-check-label">Conexión bidireccional</label>
+        </div>
+
+        <hr />
+        <h5>Datos de la Nueva Intersección Destino</h5>
+
+        <div class="mb-3">
+            <label class="form-label">ID</label>
+            <InputText class="form-control" @bind-Value="nodoDestino.Id" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Vehículos en espera</label>
+            <InputNumber class="form-control" @bind-Value="nodoDestino.VehiculosEnEspera" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Estado del semáforo</label>
+            <InputSelect class="form-select" @bind-Value="nodoDestino.EstadoSemaforo">
+                <option value="">Seleccione...</option>
+                <option value="Verde">Verde</option>
+                <option value="Amarillo">Amarillo</option>
+                <option value="Rojo">Rojo</option>
+                <option value="Desactivado">Desactivado</option>
+            </InputSelect>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tiempo promedio de tránsito (seg)</label>
+            <InputNumber class="form-control" @bind-Value="nodoDestino.TiempoPromedioCruce" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tipo de Vía al Norte</label>
+            <InputText class="form-control" @bind-Value="nodoDestino.TipoViaNorte" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tipo de Vía al Sur</label>
+            <InputText class="form-control" @bind-Value="nodoDestino.TipoViaSur" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tipo de Vía al Este</label>
+            <InputText class="form-control" @bind-Value="nodoDestino.TipoViaEste" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tipo de Vía al Oeste</label>
+            <InputText class="form-control" @bind-Value="nodoDestino.TipoViaOeste" />
+        </div>
+
+        <button class="btn btn-primary mt-3" type="submit">Conectar</button>
+    </EditForm>
+
+    @if (!string.IsNullOrEmpty(mensaje))
+    {
+        <div class="alert alert-info mt-3">@mensaje</div>
+    }
+</div>
+
+@code {
+    private string idOrigen = "";
+    private string direccion = "";
+    private bool esBidireccional = false;
+    private Nodo nodoDestino = new Nodo();
+    private string mensaje = "";
+
+    private void Conectar()
+    {
+        var origen = Db.Nodos.FirstOrDefault(n => n.Id == idOrigen);
+        if (origen == null)
+        {
+            mensaje = $"No se encontró el nodo con ID '{idOrigen}'.";
+            return;
+        }
+
+        
+        if (Db.Nodos.Any(n => n.Id == nodoDestino.Id))
+        {
+            mensaje = $"Ya existe un nodo con ID '{nodoDestino.Id}'.";
+            return;
+        }
+
+        
+
+        switch (direccion.ToLower())
+        {
+            case "norte":
+                if (!string.IsNullOrEmpty(origen.IdNorte)) { mensaje = "Ya hay una conexión al norte."; return; }
+                origen.IdNorte = nodoDestino.Id;
+                if (esBidireccional) nodoDestino.IdSur = origen.Id;
+                break;
+            case "sur":
+                if (!string.IsNullOrEmpty(origen.IdSur)) { mensaje = "Ya hay una conexión al sur."; return; }
+                origen.IdSur = nodoDestino.Id;
+                if (esBidireccional) nodoDestino.IdNorte = origen.Id;
+                break;
+            case "este":
+                if (!string.IsNullOrEmpty(origen.IdEste)) { mensaje = "Ya hay una conexión al este."; return; }
+                origen.IdEste = nodoDestino.Id;
+                if (esBidireccional) nodoDestino.IdOeste = origen.Id;
+                break;
+            case "oeste":
+                if (!string.IsNullOrEmpty(origen.IdOeste)) { mensaje = "Ya hay una conexión al oeste."; return; }
+                origen.IdOeste = nodoDestino.Id;
+                if (esBidireccional) nodoDestino.IdEste = origen.Id;
+                break;
+            default:
+                mensaje = "Dirección inválida.";
+                return;
+        }
+
+        Db.Nodos.Update(origen);
+        Db.Nodos.Add(nodoDestino);
+        Db.SaveChanges();
+
+        mensaje = $"Nodo '{nodoDestino.Id}' conectado correctamente.";
+        nodoDestino = new Nodo();
+        direccion = "";
+        esBidireccional = false;
+    }
+}
+
+

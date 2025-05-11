@@ -1,0 +1,91 @@
+﻿@page "/simular-flujo"
+@using Proyecto1.Models
+@inject Proyecto1.Services.RedVial Red
+
+<PageTitle>Simular Flujo</PageTitle>
+
+<div class="container mt-4 p-4 shadow rounded bg-white">
+    <h3 class="text-center text-primary mb-4">Simulación de Flujo Vehicular</h3>
+
+    <EditForm Model="datos" OnValidSubmit="EjecutarSimulacion">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label class="form-label">ID de Intersección Origen</label>
+            <InputText class="form-control" @bind-Value="datos.IdOrigen" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">ID de Intersección Destino</label>
+            <InputText class="form-control" @bind-Value="datos.IdDestino" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Simular Flujo</button>
+    </EditForm>
+
+    @if (!resultado.EstaVacio())
+    {
+        <div class="mt-4">
+            <h5 class="text-success">Ruta Encontrada:</h5>
+
+            <div class="d-flex flex-wrap align-items-center">
+                @foreach (var paso in resultado.ObtenerRuta())
+                {
+                    var colorSemaforo = paso.EstadoSemaforo.ToLower() switch
+                    {
+                        "verde" => "🟢",
+                        "amarillo" => "🟡",
+                        "rojo" => "🔴",
+                        _ => "⚪️"
+                    };
+
+                    <div class="ruta-paso d-flex align-items-center me-2">
+                        <span class="fs-5 me-1">🚦@colorSemaforo</span>
+                        <div class="interseccion">@paso.Id</div>
+                        <span class="mx-2 fs-4 text-secondary">➡️</span>
+                        <span>🚘</span>
+                    </div>
+                }
+            </div>
+
+            <p class="mt-3 fw-bold">
+                <strong>Tiempo Total Estimado:</strong> @resultado.TiempoTotal() segundos
+            </p>
+        </div>
+    }
+    else if (mostrarMensaje)
+    {
+        <div class="alert alert-danger mt-4">
+            No se encontró un camino desde <strong>@datos.IdOrigen</strong> hasta <strong>@datos.IdDestino</strong>.
+        </div>
+    }
+</div>
+
+@code {
+    private CaminoNodos resultado = new CaminoNodos();
+    private bool mostrarMensaje = false;
+
+    private NodoDatos datos = new();
+
+    private class NodoDatos
+    {
+        public string IdOrigen { get; set; } = "";
+        public string IdDestino { get; set; } = "";
+    }
+
+    private void EjecutarSimulacion()
+    {
+        var resultadoTemp = Red.EncontrarCamino(datos.IdOrigen, datos.IdDestino);
+        if (resultadoTemp == null || resultadoTemp.EstaVacio())
+        {
+            mostrarMensaje = true;
+            resultado = new CaminoNodos();
+        }
+        else
+        {
+            resultado = resultadoTemp;
+            mostrarMensaje = false;
+        }
+    }
+}

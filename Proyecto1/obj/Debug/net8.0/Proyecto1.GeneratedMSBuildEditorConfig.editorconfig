@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Proyecto1
+build_property.RootNamespace = Proyecto1
+build_property.ProjectDir = C:\Users\jmont\source\repos\Proyecto1Final\Proyecto1\Proyecto1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\jmont\source\repos\Proyecto1Final\Proyecto1\Proyecto1
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/jmont/source/repos/Proyecto1Final/Proyecto1/Proyecto1/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jmont/source/repos/Proyecto1Final/Proyecto1/Proyecto1/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jmont/source/repos/Proyecto1Final/Proyecto1/Proyecto1/Pages/AgregarNodo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdyZWdhck5vZG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jmont/source/repos/Proyecto1Final/Proyecto1/Proyecto1/Pages/ConectarNodos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZWN0YXJOb2Rvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jmont/source/repos/Proyecto1Final/Proyecto1/Proyecto1/Pages/HistorialReportes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yaWFsUmVwb3J0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jmont/source/repos/Proyecto1Final/Proyecto1/Proyecto1/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jmont/source/repos/Proyecto1Final/Proyecto1/Proyecto1/Pages/SimularFlujo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2ltdWxhckZsdWpvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jmont/source/repos/Proyecto1Final/Proyecto1/Proyecto1/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jmont/source/repos/Proyecto1Final/Proyecto1/Proyecto1/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jmont/source/repos/Proyecto1Final/Proyecto1/Proyecto1/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jmont/source/repos/Proyecto1Final/Proyecto1/Proyecto1/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

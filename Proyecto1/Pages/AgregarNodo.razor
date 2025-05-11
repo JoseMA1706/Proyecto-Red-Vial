@@ -1,0 +1,89 @@
+﻿@page "/agregar-nodo"
+@using Proyecto1.Models
+@using Proyecto1.Data
+@inject RedVialContext Db
+
+<PageTitle>Agregar Nodo</PageTitle>
+
+<div class="container p-4 mt-3 rounded shadow" style="background-color: #fdfdfd;">
+    <h3 class="mb-4 text-center text-primary">Agregar Nueva Intersección</h3>
+
+    <EditForm Model="@nuevoNodo" OnValidSubmit="AgregarNodoCentral">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label class="form-label">ID de Intersección</label>
+            <InputText class="form-control" @bind-Value="nuevoNodo.Id" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Vehículos en Espera</label>
+            <InputNumber class="form-control" @bind-Value="nuevoNodo.VehiculosEnEspera" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Estado del Semáforo</label>
+            <InputSelect class="form-select" @bind-Value="nuevoNodo.EstadoSemaforo">
+                <option value="">Seleccione...</option>
+                <option value="Verde">Verde</option>
+                <option value="Amarillo">Amarillo</option>
+                <option value="Rojo">Rojo</option>
+                <option value="Desactivado">Desactivado</option>
+            </InputSelect>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tiempo Promedio de Tránsito (segundos)</label>
+            <InputNumber class="form-control" @bind-Value="nuevoNodo.TiempoPromedioCruce" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tipo de Vía al Norte</label>
+            <InputText class="form-control" @bind-Value="nuevoNodo.TipoViaNorte" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tipo de Vía al Sur</label>
+            <InputText class="form-control" @bind-Value="nuevoNodo.TipoViaSur" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tipo de Vía al Este</label>
+            <InputText class="form-control" @bind-Value="nuevoNodo.TipoViaEste" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tipo de Vía al Oeste</label>
+            <InputText class="form-control" @bind-Value="nuevoNodo.TipoViaOeste" />
+        </div>
+
+        <button type="submit" class="btn btn-success">Agregar Nodo Central</button>
+    </EditForm>
+
+    @if (!string.IsNullOrEmpty(mensaje))
+    {
+        <div class="alert alert-info mt-3">@mensaje</div>
+    }
+</div>
+
+@code {
+    private Nodo nuevoNodo = new Nodo();
+    private string mensaje = "";
+
+    private void AgregarNodoCentral()
+    {
+        
+        if (Db.Nodos.Any())
+        {
+            mensaje = "Ya existe un nodo central. Solo se permite uno.";
+            return;
+        }
+
+        Db.Nodos.Add(nuevoNodo);
+        Db.SaveChanges();
+
+        mensaje = $"Nodo '{nuevoNodo.Id}' agregado correctamente.";
+        nuevoNodo = new Nodo(); 
+    }
+}

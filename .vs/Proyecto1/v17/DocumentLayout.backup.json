@@ -1,0 +1,581 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\services\\reporteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\services\\reporteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\services\\redvial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\services\\redvial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\services\\pdfhistorialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\services\\pdfhistorialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\services\\pdfgeneratorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\services\\pdfgeneratorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\pages\\simularflujo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\pages\\simularflujo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\pages\\historialreportes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\pages\\historialreportes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\pages\\conectarnodos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\pages\\conectarnodos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\pages\\agregarnodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\pages\\agregarnodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\migrations\\20250509011102_creartablanodos2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\migrations\\20250509011102_creartablanodos2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\models\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\models\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\migrations\\20250509005404_creartablanodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\migrations\\20250509005404_creartablanodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\models\\listanodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\models\\listanodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\migrations\\20250509003501_agregartablanodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\migrations\\20250509003501_agregartablanodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\migrations\\20250509001021_crearreportetabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\migrations\\20250509001021_crearreportetabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\models\\listareportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\models\\listareportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\models\\listacuellos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\models\\listacuellos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\data\\redvialdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\data\\redvialdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\models\\reporteredvial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\models\\reporteredvial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\models\\cuellobotella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\models\\cuellobotella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\models\\nodomascongestionado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\models\\nodomascongestionado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\models\\caminonodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\models\\caminonodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\pages\\_host.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\pages\\_host.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|c:\\users\\jmont\\source\\repos\\proyecto1final\\proyecto1\\proyecto1\\migrations\\20250509005729_agregarreferenciasnodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9036D9-B254-4927-A7F9-875DCF30DD93}|Proyecto1\\Proyecto1.csproj|solutionrelative:proyecto1\\migrations\\20250509005729_agregarreferenciasnodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SimularFlujo.razor",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Pages\\SimularFlujo.razor",
+              "RelativeDocumentMoniker": "Proyecto1\\Pages\\SimularFlujo.razor",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Pages\\SimularFlujo.razor",
+              "RelativeToolTip": "Proyecto1\\Pages\\SimularFlujo.razor",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T06:05:25.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PdfGeneratorServices.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Services\\PdfGeneratorServices.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Services\\PdfGeneratorServices.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Services\\PdfGeneratorServices.cs",
+              "RelativeToolTip": "Proyecto1\\Services\\PdfGeneratorServices.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T02:43:26.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PdfHistorialService.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Services\\PdfHistorialService.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Services\\PdfHistorialService.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Services\\PdfHistorialService.cs",
+              "RelativeToolTip": "Proyecto1\\Services\\PdfHistorialService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T04:12:14.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RedVial.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Services\\RedVial.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Services\\RedVial.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Services\\RedVial.cs",
+              "RelativeToolTip": "Proyecto1\\Services\\RedVial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T05:56:16.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReporteService.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Services\\ReporteService.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Services\\ReporteService.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Services\\ReporteService.cs",
+              "RelativeToolTip": "Proyecto1\\Services\\ReporteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T23:57:43.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Proyecto1\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Proyecto1\\Shared\\NavMenu.razor",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T06:16:47.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\_Imports.razor",
+              "RelativeDocumentMoniker": "Proyecto1\\_Imports.razor",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\_Imports.razor",
+              "RelativeToolTip": "Proyecto1\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T06:21:27.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\App.razor",
+              "RelativeDocumentMoniker": "Proyecto1\\App.razor",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\App.razor",
+              "RelativeToolTip": "Proyecto1\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T06:22:40.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Proyecto1\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Pages\\Home.razor",
+              "RelativeToolTip": "Proyecto1\\Pages\\Home.razor",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T06:04:43.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HistorialReportes.razor",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Pages\\HistorialReportes.razor",
+              "RelativeDocumentMoniker": "Proyecto1\\Pages\\HistorialReportes.razor",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Pages\\HistorialReportes.razor",
+              "RelativeToolTip": "Proyecto1\\Pages\\HistorialReportes.razor",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T03:31:45.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConectarNodos.razor",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Pages\\ConectarNodos.razor",
+              "RelativeDocumentMoniker": "Proyecto1\\Pages\\ConectarNodos.razor",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Pages\\ConectarNodos.razor",
+              "RelativeToolTip": "Proyecto1\\Pages\\ConectarNodos.razor",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAHcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T06:06:44.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AgregarNodo.razor",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Pages\\AgregarNodo.razor",
+              "RelativeDocumentMoniker": "Proyecto1\\Pages\\AgregarNodo.razor",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Pages\\AgregarNodo.razor",
+              "RelativeToolTip": "Proyecto1\\Pages\\AgregarNodo.razor",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAFYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T06:05:53.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Program.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Program.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Program.cs",
+              "RelativeToolTip": "Proyecto1\\Program.cs",
+              "ViewState": "AgIAAAoAAAAARBdda98PwAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T05:57:12.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\appsettings.json",
+              "RelativeDocumentMoniker": "Proyecto1\\appsettings.json",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\appsettings.json",
+              "RelativeToolTip": "Proyecto1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-08T23:23:25.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Nodo.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Models\\Nodo.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Models\\Nodo.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Models\\Nodo.cs",
+              "RelativeToolTip": "Proyecto1\\Models\\Nodo.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T05:53:43.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250509005404_CrearTablaNodos.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Migrations\\20250509005404_CrearTablaNodos.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Migrations\\20250509005404_CrearTablaNodos.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Migrations\\20250509005404_CrearTablaNodos.cs",
+              "RelativeToolTip": "Proyecto1\\Migrations\\20250509005404_CrearTablaNodos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T00:54:04.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250509011102_CrearTablaNodos2.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Migrations\\20250509011102_CrearTablaNodos2.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Migrations\\20250509011102_CrearTablaNodos2.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Migrations\\20250509011102_CrearTablaNodos2.cs",
+              "RelativeToolTip": "Proyecto1\\Migrations\\20250509011102_CrearTablaNodos2.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T01:11:03.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ListaNodo.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Models\\ListaNodo.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Models\\ListaNodo.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Models\\ListaNodo.cs",
+              "RelativeToolTip": "Proyecto1\\Models\\ListaNodo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T05:54:17.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Proyecto1\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T23:18:02.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250509003501_AgregarTablaNodos.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Migrations\\20250509003501_AgregarTablaNodos.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Migrations\\20250509003501_AgregarTablaNodos.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Migrations\\20250509003501_AgregarTablaNodos.cs",
+              "RelativeToolTip": "Proyecto1\\Migrations\\20250509003501_AgregarTablaNodos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T00:35:01.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250509001021_CrearReporteTabla.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Migrations\\20250509001021_CrearReporteTabla.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Migrations\\20250509001021_CrearReporteTabla.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Migrations\\20250509001021_CrearReporteTabla.cs",
+              "RelativeToolTip": "Proyecto1\\Migrations\\20250509001021_CrearReporteTabla.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T00:10:22.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ListaReportes.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Models\\ListaReportes.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Models\\ListaReportes.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Models\\ListaReportes.cs",
+              "RelativeToolTip": "Proyecto1\\Models\\ListaReportes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T03:34:09.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ListaCuellos.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Models\\ListaCuellos.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Models\\ListaCuellos.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Models\\ListaCuellos.cs",
+              "RelativeToolTip": "Proyecto1\\Models\\ListaCuellos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T02:02:12.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RedVialDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Data\\RedVialDbContext.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Data\\RedVialDbContext.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Data\\RedVialDbContext.cs",
+              "RelativeToolTip": "Proyecto1\\Data\\RedVialDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T23:25:23.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250509005729_AgregarReferenciasNodos.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Migrations\\20250509005729_AgregarReferenciasNodos.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Migrations\\20250509005729_AgregarReferenciasNodos.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Migrations\\20250509005729_AgregarReferenciasNodos.cs",
+              "RelativeToolTip": "Proyecto1\\Migrations\\20250509005729_AgregarReferenciasNodos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T00:57:30.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ReporteRedVial.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Models\\ReporteRedVial.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Models\\ReporteRedVial.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Models\\ReporteRedVial.cs",
+              "RelativeToolTip": "Proyecto1\\Models\\ReporteRedVial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T23:56:32.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NodoMasCongestionado.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Models\\NodoMasCongestionado.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Models\\NodoMasCongestionado.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Models\\NodoMasCongestionado.cs",
+              "RelativeToolTip": "Proyecto1\\Models\\NodoMasCongestionado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T23:54:33.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CuelloBotella.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Models\\CuelloBotella.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Models\\CuelloBotella.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Models\\CuelloBotella.cs",
+              "RelativeToolTip": "Proyecto1\\Models\\CuelloBotella.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T23:55:01.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Proyecto1\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Proyecto1\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T06:20:19.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "Proyecto1\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\wwwroot\\app.css",
+              "RelativeToolTip": "Proyecto1\\wwwroot\\app.css",
+              "ViewState": "AgIAADoAAAAAAAAAAAAqwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-08T06:47:07.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CaminoNodos.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Models\\CaminoNodos.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Models\\CaminoNodos.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Models\\CaminoNodos.cs",
+              "RelativeToolTip": "Proyecto1\\Models\\CaminoNodos.cs",
+              "ViewState": "AgIAABwAAAAAAAAAACBjwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T05:54:49.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Pages\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Proyecto1\\Pages\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Pages\\_Layout.cshtml",
+              "RelativeToolTip": "Proyecto1\\Pages\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T06:28:55.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "Proyecto1\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeToolTip": "Proyecto1\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-08T06:49:20.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Proyecto1\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Proyecto1\\Pages\\_Host.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T06:27:22.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_Host.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Pages\\_Host.cshtml.cs",
+              "RelativeDocumentMoniker": "Proyecto1\\Pages\\_Host.cshtml.cs",
+              "ToolTip": "C:\\Users\\jmont\\source\\repos\\Proyecto1Final\\Proyecto1\\Proyecto1\\Pages\\_Host.cshtml.cs",
+              "RelativeToolTip": "Proyecto1\\Pages\\_Host.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T06:27:50.143Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
