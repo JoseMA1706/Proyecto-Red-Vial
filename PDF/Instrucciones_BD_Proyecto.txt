@@ -1,0 +1,44 @@
+
+======================
+INSTRUCCIONES PARA BASE DE DATOS SQL SERVER - PROYECTO RED VIAL BLAZOR
+======================
+
+1. ABRIR EL PROYECTO
+----------------------
+Abre la solución (.sln) en Visual Studio.
+
+2. INSTALAR PAQUETES NECESARIOS DE ENTITY FRAMEWORK CORE
+-----------------------------------------------------------
+Abre la Consola del Administrador de Paquetes (Herramientas > NuGet > Consola) y ejecuta:
+
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package Microsoft.EntityFrameworkCore.Tools
+
+3. VERIFICAR/MODIFICAR LA CADENA DE CONEXIÓN
+---------------------------------------------
+En el archivo appsettings.json, modifica el valor de "DefaultConnection" con el nombre correcto de tu instancia SQL Server:
+
+"ConnectionStrings": {
+  "DefaultConnection": "Server=NOMBRE_DEL_SERVIDOR;Database=RedVialDB;Trusted_Connection=True;TrustServerCertificate=True;"
+}
+
+Ejemplo común (reemplaza por el nombre real de tu máquina):
+
+"Server=DESKTOP-1234ABC\SQLEXPRESS;Database=RedVialDB;Trusted_Connection=True;TrustServerCertificate=True;"
+
+4. CREAR LA BASE DE DATOS USANDO MIGRACIÓN
+-------------------------------------------
+Desde la Consola del Administrador de Paquetes NuGet, ejecuta los comandos:
+
+Add-Migration CrearTablasIniciales -Context RedVialContext
+Update-Database -Context RedVialContext
+
+Esto generará las tablas necesarias en tu SQL Server.
+
+5. EJECUTAR EL PROYECTO
+-------------------------
+Presiona F5 o haz clic en "Iniciar" para ejecutar el proyecto.
+
+La base de datos se conectará automáticamente y cargará los datos almacenados. Puedes agregar nodos, conectarlos, simular flujo, generar PDF y consultar reportes desde la interfaz Blazor.
+
+======================
